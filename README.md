@@ -4,6 +4,10 @@ This project is a Model Context Protocol (MCP) server for performing enrichment 
 
 This tool provides a simple MCP server implementation to perform third-party enrichment using common services (e.g. VirusTotal, Hybrid Analysis, etc.) utilizing the [security-cli](https://github.com/MSAdministrator/security-cli) python package to perform enrichment/communicate with different services.
 
+<a href="https://glama.ai/mcp/servers/@MSAdministrator/enrichment-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@MSAdministrator/enrichment-mcp/badge" alt="Enrichment Server MCP server" />
+</a>
+
 ## MCP Server
 
 This implementation of the `enrichment-mcp` MCP server exposes the following [tools](https://modelcontextprotocol.io/docs/concepts/tools).

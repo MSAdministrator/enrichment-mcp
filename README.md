@@ -1,5 +1,7 @@
 # Enrichment MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@MSAdministrator/enrichment-mcp)](https://smithery.ai/server/@MSAdministrator/enrichment-mcp)
+
 This project is a Model Context Protocol (MCP) server for performing enrichment given a provided observable. The combination of configured services and the provided observable(s) will determine which enrichment services to call.
 
 This tool provides a simple MCP server implementation to perform third-party enrichment using common services (e.g. VirusTotal, Hybrid Analysis, etc.) utilizing the [security-cli](https://github.com/MSAdministrator/security-cli) python package to perform enrichment/communicate with different services.
@@ -143,6 +145,14 @@ Open up the configuration file in any text editor. Replace the file contents wit
 4. Relaunch Claude for Desktop
 
 You should now see two icons in the chat bar, a hammer which shows the tools available and a connection icon which shows the prompt defined and the input required.
+
+### Installing via Smithery
+
+To install Enrichment MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@MSAdministrator/enrichment-mcp):
+
+```bash
+npx -y @smithery/cli install @MSAdministrator/enrichment-mcp --client claude
+```
 
 ## Contributing
 
